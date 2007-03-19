@@ -1,0 +1,1 @@
+Настройки Nokia: 11 - CSD, 12 - GPRS, 13 - MMS. Siemens до A55: 21 - CSD. Motorola: 31 - CSD+GPRS+MMS

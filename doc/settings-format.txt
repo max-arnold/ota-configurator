@@ -1,0 +1,6 @@
+To compile XML settings to binary format use wbxml2 from http://libwbxml.aymerick.com/.
+
+Nokia settings:
+  xml2wbxml -n -v 1.1 -o lalala.bin lalala.xml
+OMA settings:
+  xml2wbxml -n -v 1.3 -o lalala.bin lalala.xml

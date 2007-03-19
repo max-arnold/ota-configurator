@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE wap-provisioningdoc PUBLIC "-//WAPFORUM//DTD PROV 1.0//EN" "http://www.wapforum.org/DTD/prov.dtd">
+<wap-provisioningdoc>
+ <characteristic type="NAPDEF">
+  <parm name="NAPID" value="MTS-CSD" />
+  <parm name="NAME" value="MTS-CSD" />
+  <parm name="BEARER" value="GSM-CSD" />
+  <parm name="NAP-ADDRESS" value="0885" />
+  <parm name="NAP-ADDRTYPE" value="E164" />
+   <characteristic type="NAPAUTHINFO">
+     <parm name="AUTHTYPE" value="PAP"/>
+     <parm name="AUTHNAME" value="mts"/>
+     <parm name="AUTHSECRET" value="mts"/>
+   </characteristic>
+ </characteristic>
+ <characteristic type="PXLOGICAL">
+  <parm name="PROXY-ID" value="212.044.140.013" />
+  <parm name="NAME" value="MTS-CSD" />
+  <parm name="STARTPAGE" value="http://wap.mts.ru" />
+  <characteristic type="PXPHYSICAL">
+   <parm name="PXADDR" value="212.044.140.013" />
+   <parm name="PXADDRTYPE" value="IPV4" />
+   <parm name="TO-NAPID" value="MTS-CSD" />
+   <characteristic type="PORT">
+    <parm name="PORTNBR" value="9201" />
+    <parm name="SERVICE" value="" />
+   </characteristic>
+  </characteristic>
+ </characteristic>
+</wap-provisioningdoc>

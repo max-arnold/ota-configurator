@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE wap-provisioningdoc PUBLIC "-//WAPFORUM//DTD PROV 1.0//EN" "http://www.wapforum.org/DTD/prov.dtd">
+<wap-provisioningdoc>
+ <characteristic type="PXLOGICAL">
+  <parm name="PROXY-ID" value="sdp.our.com">
+  </parm>
+  <parm name="NAME" value="HelloWorld">
+  </parm>
+  <parm name="STARTPAGE" value="http://sdp.our.com/IUT/homepage.htm">
+  </parm>
+  <characteristic type="PXPHYSICAL">
+   <parm name="PHYSICAL-PROXY-ID" value="Gateway 1">
+   </parm>
+   <parm name="PXADDR" value="111.31.222.46">
+   </parm>
+   <parm name="PXADDRTYPE" value="IPV4">
+   </parm>
+   <parm name="TO-NAPID" value="NAP 1">
+   </parm>
+   <characteristic type="PORT">
+    <parm name="PORTNBR" value="80">
+    </parm>
+   </characteristic>
+  </characteristic>
+  <characteristic type="PXPHYSICAL">
+   <parm name="PHYSICAL-PROXY-ID" value="Gateway 2">
+   </parm>
+   <parm name="PXADDR" value="222.31.111.46">
+   </parm>
+   <parm name="PXADDRTYPE" value="IPV4">
+   </parm>
+   <parm name="TO-NAPID" value="NAP 1">
+   </parm>
+   <characteristic type="PORT">
+    <parm name="PORTNBR" value="80">
+    </parm>
+   </characteristic>
+  </characteristic>
+ </characteristic>
+ <characteristic type="NAPDEF">
+  <parm name="NAPID" value="NAP 1">
+  </parm>
+  <parm name="BEARER" value="GSM-GPRS">
+  </parm>
+  <parm name="NAME" value="OUR GPRS">
+  </parm>
+  <parm name="NAP-ADDRESS" value="our.net">
+  </parm>
+  <parm name="NAP-ADDRTYPE" value="APN">
+  </parm>
+ </characteristic>
+</wap-provisioningdoc>

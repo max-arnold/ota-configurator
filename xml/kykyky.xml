@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE wap-provisioningdoc PUBLIC "-//WAPFORUM//DTD PROV 1.0//EN" "http://www.wapforum.org/DTD/prov.dtd">
+<wap-provisioningdoc>
+ <characteristic type="BOOTSTRAP">
+  <parm name="NAME" value="MTS">
+  </parm>
+ </characteristic>
+ <characteristic type="NAPDEF">
+  <parm name="NAME" value="MTS">
+  </parm>
+  <parm name="NAPID" value="MTS_NAPID">
+  </parm>
+  <parm name="BEARER" value="GSM-CSD">
+  </parm>
+  <parm name="NAP-ADDRESS" value="0885">
+  </parm>
+  <parm name="NAP-ADDRTYPE" value="E164">
+  </parm>
+  <parm name="CALLTYPE" value="V.110">
+  </parm>
+  <parm name="LINKSPEED" value="AUTOBAUDING">
+  </parm>
+  <characteristic type="NAPAUTHINFO">
+   <parm name="AUTHTYPE" value="PAP">
+   </parm>
+   <parm name="AUTHNAME" value="mts">
+   </parm>
+   <parm name="AUTHSECRET" value="mts">
+   </parm>
+  </characteristic>
+ </characteristic>
+ <characteristic type="PXLOGICAL">
+  <parm name="NAME" value="MTS">
+  </parm>
+  <parm name="PROXY-ID" value="MTS_Proxy">
+  </parm>
+  <parm name="STARTPAGE" value="http://wap.mts.ru">
+  </parm>
+  <characteristic type="PXPHYSICAL">
+   <parm name="PHYSICAL-PROXY-ID" value="MTS_PhProxy">
+   </parm>
+   <parm name="PXADDR" value="172.16.16.1">
+   </parm>
+   <parm name="PXADDRTYPE" value="IPV4">
+   </parm>
+   <parm name="TO-NAPID" value="MTS_NAPID">
+   </parm>
+   <characteristic type="PORT">
+    <parm name="PORTNBR" value="9201">
+    </parm>
+    <parm name="SERVICE" value="CO-WSP">
+    </parm>
+   </characteristic>
+  </characteristic>
+ </characteristic>
+ <characteristic type="APPLICATION">
+  <parm name="APPID" value="w2">
+  </parm>
+  <parm name="TO-PROXY" value="MTS_Proxy">
+  </parm>
+  <parm name="NAME" value="Browser">
+  </parm>
+  <characteristic type="RESOURCE">
+   <parm name="URI" value="http://wap.mts.ru">
+   </parm>
+   <parm name="STARTPAGE">
+   </parm>
+  </characteristic>
+ </characteristic>
+</wap-provisioningdoc>

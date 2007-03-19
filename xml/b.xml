@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE wap-provisioningdoc PUBLIC "-//WAPFORUM//DTD PROV 1.0//EN" "http://www.wapforum.org/DTD/prov.dtd">
+
+<wap-provisioningdoc>
+<characteristic type="BOOTSTRAP">
+<parm name="NAME" value="MoviStar Spain "/>
+</characteristic>
+<characteristic type="NAPDEF">
+<parm name="NAME" value="MoviStar Spain "/>
+<parm name="NAPID" value="MoviStar_Spain_NAPID"/>
+<parm name="BEARER" value="GSM-GPRS"/>
+<parm name="NAP-ADDRESS" value="wap.movistar.es"/>
+<parm name="NAP-ADDRTYPE" value="APN"/>
+<characteristic type="NAPAUTHINFO">
+<parm name="AUTHTYPE" value="PAP"/> 
+<parm name="AUTHNAME" value="WAPTM"/> 
+<parm name="AUTHSECRET" value="WAPTM"/> 
+</characteristic> 
+</characteristic> 
+<characteristic type="PXLOGICAL"> 
+<parm name="NAME" value="MoviStar Spain "/> 
+<parm name="PROXY-ID" value="MoviStar Spain_Proxy"/> 
+<parm name="STARTPAGE" value="http://wap.movistar.com"/> 
+<characteristic type="PXPHYSICAL"> 
+<parm name="PHYSICAL-PROXY-ID" value="MoviStar Spain_PhProxy"/> 
+<parm name="PXADDR" value="192.168.80.21"/> 
+<parm name="PXADDRTYPE" value="IPV4"/> 
+<parm name="TO-NAPID" value="MoviStar_Spain_NAPID"/> 
+<characteristic type="PORT"> 
+<parm name="PORTNBR" value="9201"/> 
+<parm name="SERVICE" value="CO-WSP"/> 
+</characteristic> 
+</characteristic> 
+</characteristic> 
+<characteristic type="APPLICATION"> 
+<parm name="APPID" value="w2"/> 
+<parm name="TO-PROXY" value="MoviStar Spain_Proxy"/> 
+<parm name="NAME" value="Browser"/> 
+<characteristic type="RESOURCE"> 
+<parm name="URI" value="http://wap.movistar.com"/> 
+<parm name="STARTPAGE"/> 
+</characteristic> 
+</characteristic> 
+</wap-provisioningdoc>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE wap-provisioningdoc PUBLIC "-//WAPFORUM//DTD PROV 1.0//EN"
+"http://www.wapforum.org/DTD/prov.dtd">
+<wap-provisioningdoc>
+ <characteristic type="NAPDEF">
+  <parm name="NAPID" value="x">
+  </parm>
+  <parm name="NAME" value="x">
+  </parm>
+  <parm name="BEARER" value="GSM-GPRS">
+  </parm>
+  <parm name="NAP-ADDRESS" value="internet">
+  </parm>
+  <parm name="NAP-ADDRTYPE" value="APN">
+  </parm>
+  <characteristic type="NAPAUTHINFO">
+   <parm name="AUTHTYPE" value="PAP">
+   </parm>
+   <parm name="AUTHNAME" value="">
+   </parm>
+   <parm name="AUTHSECRET" value="">
+   </parm>
+  </characteristic>
+ </characteristic>
+ <characteristic type="PXLOGICAL">
+  <parm name="PROXY-ID" value="172.016.016.001">
+  </parm>
+  <parm name="NAME" value="x">
+  </parm>
+  <parm name="STARTPAGE" value="http://www.lmt.lv/wap/">
+  </parm>
+  <characteristic type="PXPHYSICAL">
+   <parm name="PXADDR" value="172.016.016.001">
+   </parm>
+   <parm name="PXADDRTYPE" value="IPV4">
+   </parm>
+   <parm name="TO-NAPID" value="x">
+   </parm>
+   <characteristic type="PORT">
+    <parm name="PORTNBR" value="9201">
+    </parm>
+    <parm name="SERVICE" value="CO-WSP">
+    </parm>
+   </characteristic>
+  </characteristic>
+ </characteristic>
+ <characteristic type="APPLICATION">
+  <parm name="APPID" value="w2">
+  </parm>
+  <parm name="NAME" value="x">
+  </parm>
+  <parm name="TO-PROXY" value="172.016.016.001">
+  </parm>
+  <characteristic type="RESOURCE">
+   <parm name="URI" value="http://www.lmt.lv/wap/">
+   </parm>
+   <parm name="NAME" value="x">
+   </parm>
+   <parm name="STARTPAGE" value="http://www.lmt.lv/wap/">
+   </parm>
+  </characteristic>
+ </characteristic>
+</wap-provisioningdoc>

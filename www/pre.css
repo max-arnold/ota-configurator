@@ -1,0 +1,107 @@
+BODY, TABLE {
+    background-color : #F5FFFA;
+    font-family : Tahoma;
+    font-size : 8pt;
+}
+
+A {
+    color : Navy;
+    text-decoration : none;
+}
+
+A:hover {
+    color : #6495ED;
+    text-decoration : underline;
+}
+
+Q {
+    color : #6495ED;
+    font-weight : bolder;
+    font-style : normal;
+}
+
+DIV.MainNavigator {
+    text-align : left;
+    background-color: Cyan;
+}
+
+DIV.MainHeader {
+    filter: Alpha(Opacity="0",FinishOpacity="75",Style="2");
+    font-size: 30px;
+    background-color: Blue;
+    padding-bottom : 10px;
+    color: White;
+}
+
+DIV.MainCopyright {
+    text-align : right;
+}
+
+.norm {
+    border: black 1px solid;
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+TABLE.Login, TABLE.News, TABLE.UserInfo, TABLE.Article {
+    border: black 1px outset;
+    background-color: #F5F5FA;
+}
+
+TABLE.UserDetail {
+    background-color: #F5F5FA;
+}
+
+TABLE.Login TD, TABLE.News TD, TABLE.Article TD {
+    padding: 2;
+    margin: 2;
+}
+
+TABLE.Login TR.Header TD, TABLE.News TR.Header TD, TABLE.UserInfo TR.Header TD, TABLE.Article TR.Header TD  {
+    background-color: #00BFFF;
+    padding: 2;
+    margin: 0;
+}
+
+TABLE.Article TR.Footer TD  {
+    background-color: #E5E5E5;
+    padding: 2;
+    margin: 0;
+    text-align: right;
+}
+
+TABLE.Login, TABLE.UserInfo, TABLE.Article {
+    width: 100%;
+}
+
+.btn {
+    background-color: Blue;
+    border : 1px outset Blue;
+    cursor : hand;
+    color : White;
+    font-weight : bolder;
+}
+
+TABLE.body, TABLE.News {
+    width: 100%;
+}
+
+TABLE.body TR {
+    vertical-align: top;
+}
+
+DIV.NewsText {
+    text-align: justify;
+}
+
+DIV.NewsAuthor {
+    text-align: right;
+}
+
+TABLE.News TR.Header TD.Arrows {
+    text-align: right;
+}
+
+TABLE.UserDetail TR TD.key {
+    font-weight: bold;
+}

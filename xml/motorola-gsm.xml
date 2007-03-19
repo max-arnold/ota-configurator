@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE wap-provisioningdoc PUBLIC "-//WAPFORUM//DTD PROV 1.0//EN" "http://www.wapforum.org/DTD/prov.dtd">
+<wap-provisioningdoc>
+<characteristic type="BOOTSTRAP">
+<parm name="PROXY-ID" value="wap.mts.ru"/>
+<parm name="NAME" value="mts"/>
+</characteristic>
+ <characteristic type="PXLOGICAL">
+  <parm name="PROXY-ID" value="wap.mts.ru" />
+  <parm name="NAME" value="MTS" />
+  <parm name="STARTPAGE" value="http://wap.mts.ru" />
+  <characteristic type="PXPHYSICAL">
+   <parm name="PHYSICAL-PROXY-ID" value="Profile 1" />
+   <parm name="PXADDR" value="192.168.192.168" />
+   <parm name="PXADDRTYPE" value="IPV4" />
+   <parm name="TO-NAPID" value="MTSCSD" />
+   <parm name="TO-NAPID" value="MTSGPRS" />
+   <characteristic type="PORT">
+    <parm name="PORTNBR" value="9201" />
+   </characteristic>
+  </characteristic>
+ </characteristic>
+ <characteristic type="NAPDEF">
+  <parm name="NAPID" value="MTSCSD" />
+  <parm name="NAME" value="MTS-CSD" />
+  <parm name="BEARER" value="GSM-CSD" />
+  <parm name="NAP-ADDRESS" value="0885" />
+  <parm name="NAP-ADDRTYPE" value="E164" />
+  <parm name="CALLTYPE" value="ANALOG_MODEM" />
+   <characteristic type="NAPAUTHINFO">
+     <parm name="AUTHTYPE" value="PAP"/>
+     <parm name="AUTHNAME" value="mts"/>
+     <parm name="AUTHSECRET" value="mts"/>
+   </characteristic>
+ </characteristic>
+<characteristic type="NAPDEF">
+<parm name="NAPID" value="MTSGPRS"/>
+<parm name="BEARER" value="GSM-GPRS"/>
+<parm name="NAME" value="MTS-GPRS"/>
+<parm name="NAP-ADDRESS" value="wap.mts.ru"/>
+<parm name="NAP-ADDRTYPE" value="APN"/>
+</characteristic>
+<characteristic type="APPLICATION">
+<parm name="APPID" value="w4"/>
+<parm name="NAME" value="MTS-MMS"/>
+<parm name="ADDR" value="http://mmsc"/>
+</characteristic>
+</wap-provisioningdoc>

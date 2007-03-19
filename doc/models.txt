@@ -1,0 +1,8 @@
+Siemens ST55
+  [OTA], OpenWave
+Siemens S55
+  Openwave
+Samsung SGH-E700
+  OTA
+Samsung SGH-C100
+  ???

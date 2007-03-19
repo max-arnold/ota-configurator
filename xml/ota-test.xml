@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE characteristic-list SYSTEM "file://settings.dtd">
+<characteristic-list>
+ <characteristic type="ADDRESS">
+  <parm name="BEARER" value="GSM/CSD"/>
+  <parm name="PROXY" value="172.16.16.1"/>
+  <parm name="CSD_DIALSTRING" value="0885"/>
+  <parm name="PPP_AUTHTYPE" value="PAP"/>
+ </characteristic>
+ <characteristic type="NAME">
+  <parm name="NAME" value="MTS"/>
+ </characteristic>
+ <characteristic type="BOOKMARK">
+  <parm name="NAME" value="HUH"/>
+  <parm name="URL" value="http://www.censored.ru"/>
+ </characteristic>
+</characteristic-list>
